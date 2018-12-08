@@ -1,0 +1,1 @@
+# strimzi-cp-ksql
