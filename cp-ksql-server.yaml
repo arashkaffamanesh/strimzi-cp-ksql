@@ -31,7 +31,7 @@ spec:
       containers:
         - env:
             - name: KSQL_BOOTSTRAP_SERVERS
-              value: 'PLAINTEXT://dkv-kafka-kafka-brokers:9092'
+              value: 'PLAINTEXT://my-first-ephemeral-kafka-cluster-kafka-brokers:9092'
             - name: KSQL_KSQL_SERVICE_ID
               value: fancy-camel
             - name: KSQL_KSQL_SCHEMA_REGISTRY_URL
